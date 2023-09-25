@@ -1,0 +1,135 @@
+[
+  {
+    "id": 1,
+    "picture": "https://s31955.pcdn.co/wp-content/uploads/2019/10/girl-drinking.jpg",
+    "title": "Clean water for children",
+    "category": "Health",
+    "category_bg": "#0052ff33",
+    "card_bg": "#0052FF26",
+    "text_button_bg": "#0052FF",
+    "description": "Clean Water for Children is a non-profit organization dedicated to ensuring access to safe and clean drinking water for children in underserved communities around the world. We believe that every child deserves the opportunity to thrive, and clean water is a fundamental necessity for their health, education, and overall well-being. Through our innovative projects and partnerships, we work tirelessly to make clean water a reality for vulnerable children, empowering them to lead healthier and brighter futures. Join us in our mission to transform lives one drop at a time.",
+    "price": "19999"
+  },
+  {
+    "id": 2,
+    "picture": "https://www.bbva.com/wp-content/uploads/2019/05/Educacio%CC%81n-ODS4-ENG-BBVA-2-1920x1180.jpg",
+    "title": "Good education",
+    "category": "Education",
+    "category_bg": "#ff444a33",
+    "card_bg": "#FF444A26",
+    "text_button_bg": "#FF444A",
+    "description": "Good Education is a mission-driven initiative committed to providing quality education for all. We believe that every individual, regardless of their background or circumstances, deserves access to an education that empowers them to reach their full potential. Through innovative programs, dedicated teachers, and community support, we strive to create a brighter future where education is a catalyst for personal and societal growth. Join us in our quest to make good education accessible to all, because knowledge is the key to a better world.",
+    "price": "49999"
+  },
+  {
+    "id": 3,
+    "picture": "https://volunteerguide.org/wp-content/uploads/2020/07/where-to-donate-clothing-header.jpg",
+    "title": "Used Clothing Drive",
+    "category": "Clothing",
+    "category_bg": "#79c23f33",
+    "card_bg": "#79C23F26",
+    "text_button_bg": "#79C23F",
+    "description": "The Used Clothing Drive is a charitable initiative focused on giving a second life to your gently used clothing. We collect your donations to provide clothing to those who need it most. By contributing to our drive, you help reduce waste, support sustainability, and make a positive difference in the lives of individuals and families in our community. Join us in extending a helping hand and sharing warmth through the gift of used clothing.",
+    "price": "7999"
+  },
+  {
+    "id": 4,
+    "picture": "https://www.pathwaycn.com/blog/wp-content/uploads/food-donation.jpg",
+    "title": "Better Food for Everyone",
+    "category": "Food",
+    "category_bg": "#f8714733",
+    "card_bg": "#F8714726",
+    "text_button_bg": "#F87147",
+    "description": "Better Food for Everyone is a grassroots movement committed to improving the quality and accessibility of nutritious food for all. We believe that everyone deserves access to wholesome and affordable food that nourishes both the body and the planet. Through community-driven initiatives, sustainable agriculture practices, and education, we work towards a future where no one goes hungry, and our food choices contribute to a healthier, more equitable world. Join us in our mission to make better food choices a reality for everyone, one meal at a time.",
+    "price": "29999"
+  },
+  {
+    "id": 5,
+    "picture": "https://www.pathwaycn.com/blog/wp-content/uploads/food-donation.jpg",
+    "title": "Better Food for Everyone",
+    "category": "Food",
+    "category_bg": "#f8714733",
+    "card_bg": "#F8714726",
+    "text_button_bg": "#F87147",
+    "description": "Better Food for Everyone is a grassroots movement committed to improving the quality and accessibility of nutritious food for all. We believe that everyone deserves access to wholesome and affordable food that nourishes both the body and the planet. Through community-driven initiatives, sustainable agriculture practices, and education, we work towards a future where no one goes hungry, and our food choices contribute to a healthier, more equitable world. Join us in our mission to make better food choices a reality for everyone, one meal at a time.",
+    "price": "29999"
+  },
+  {
+    "id": 6,
+    "picture": "https://volunteerguide.org/wp-content/uploads/2020/07/where-to-donate-clothing-header.jpg",
+    "title": "Used Clothing Drive",
+    "category": "Clothing",
+    "category_bg": "#79c23f33",
+    "card_bg": "#79C23F26",
+    "text_button_bg": "#79C23F",
+    "description": "The Used Clothing Drive is a charitable initiative focused on giving a second life to your gently used clothing. We collect your donations to provide clothing to those who need it most. By contributing to our drive, you help reduce waste, support sustainability, and make a positive difference in the lives of individuals and families in our community. Join us in extending a helping hand and sharing warmth through the gift of used clothing.",
+    "price": "7999"
+  },
+  {
+    "id": 7,
+    "picture": "https://www.bbva.com/wp-content/uploads/2019/05/Educacio%CC%81n-ODS4-ENG-BBVA-2-1920x1180.jpg",
+    "title": "Good education",
+    "category": "Education",
+    "category_bg": "#ff444a33",
+    "card_bg": "#FF444A26",
+    "text_button_bg": "#FF444A",
+    "description": "Good Education is a mission-driven initiative committed to providing quality education for all. We believe that every individual, regardless of their background or circumstances, deserves access to an education that empowers them to reach their full potential. Through innovative programs, dedicated teachers, and community support, we strive to create a brighter future where education is a catalyst for personal and societal growth. Join us in our quest to make good education accessible to all, because knowledge is the key to a better world.",
+    "price": "49999"
+  },
+  {
+    "id": 8,
+    "picture": "https://s31955.pcdn.co/wp-content/uploads/2019/10/girl-drinking.jpg",
+    "title": "Clean water for children",
+    "category": "Health",
+    "category_bg": "#0052ff33",
+    "card_bg": "#0052FF26",
+    "text_button_bg": "#0052FF",
+    "description": "Clean Water for Children is a non-profit organization dedicated to ensuring access to safe and clean drinking water for children in underserved communities around the world. We believe that every child deserves the opportunity to thrive, and clean water is a fundamental necessity for their health, education, and overall well-being. Through our innovative projects and partnerships, we work tirelessly to make clean water a reality for vulnerable children, empowering them to lead healthier and brighter futures. Join us in our mission to transform lives one drop at a time.",
+    "price": "19999"
+  },
+
+  {
+    "id": 9,
+    "picture": "https://s31955.pcdn.co/wp-content/uploads/2019/10/girl-drinking.jpg",
+    "title": "Clean water for children",
+    "category": "Health",
+    "category_bg": "#0052ff33",
+    "card_bg": "#0052FF26",
+    "text_button_bg": "#0052FF",
+    "description": "Clean Water for Children is a non-profit organization dedicated to ensuring access to safe and clean drinking water for children in underserved communities around the world. We believe that every child deserves the opportunity to thrive, and clean water is a fundamental necessity for their health, education, and overall well-being. Through our innovative projects and partnerships, we work tirelessly to make clean water a reality for vulnerable children, empowering them to lead healthier and brighter futures. Join us in our mission to transform lives one drop at a time.",
+    "price": "19999"
+  },
+  {
+    "id": 10,
+    "picture": "https://www.bbva.com/wp-content/uploads/2019/05/Educacio%CC%81n-ODS4-ENG-BBVA-2-1920x1180.jpg",
+    "title": "Good education",
+    "category": "Education",
+    "category_bg": "#ff444a33",
+    "card_bg": "#FF444A26",
+    "text_button_bg": "#FF444A",
+    "description": "Good Education is a mission-driven initiative committed to providing quality education for all. We believe that every individual, regardless of their background or circumstances, deserves access to an education that empowers them to reach their full potential. Through innovative programs, dedicated teachers, and community support, we strive to create a brighter future where education is a catalyst for personal and societal growth. Join us in our quest to make good education accessible to all, because knowledge is the key to a better world.",
+    "price": "49999"
+  },
+  {
+    "id": 11,
+    "picture": "https://volunteerguide.org/wp-content/uploads/2020/07/where-to-donate-clothing-header.jpg",
+    "title": "Used Clothing Drive",
+    "category": "Clothing",
+    "category_bg": "#79c23f33",
+    "card_bg": "#79C23F26",
+    "text_button_bg": "#79C23F",
+    "description": "The Used Clothing Drive is a charitable initiative focused on giving a second life to your gently used clothing. We collect your donations to provide clothing to those who need it most. By contributing to our drive, you help reduce waste, support sustainability, and make a positive difference in the lives of individuals and families in our community. Join us in extending a helping hand and sharing warmth through the gift of used clothing.",
+    "price": "7999"
+  },
+  {
+    "id": 12,
+    "picture": "https://www.pathwaycn.com/blog/wp-content/uploads/food-donation.jpg",
+    "title": "Better Food for Everyone",
+    "category": "Food",
+    "category_bg": "#f8714733",
+    "card_bg": "#F8714726",
+    "text_button_bg": "#F87147",
+    "description": "Better Food for Everyone is a grassroots movement committed to improving the quality and accessibility of nutritious food for all. We believe that everyone deserves access to wholesome and affordable food that nourishes both the body and the planet. Through community-driven initiatives, sustainable agriculture practices, and education, we work towards a future where no one goes hungry, and our food choices contribute to a healthier, more equitable world. Join us in our mission to make better food choices a reality for everyone, one meal at a time.",
+    "price": "29999"
+  }
+]
