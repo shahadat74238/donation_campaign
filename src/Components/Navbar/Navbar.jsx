@@ -3,7 +3,7 @@ import { NavLink } from "react-router-dom";
 const Navbar = () => {
   const links = (
     <>
-      <li className="list-none hover:text-[#FF444A] hover:underline ">
+      <li className="list-none font-bold text-lg hover:text-[#FF444A] hover:underline ">
         <NavLink
           to="/"
           className={({ isActive, isPending }) =>
@@ -13,7 +13,7 @@ const Navbar = () => {
           Home
         </NavLink>
       </li>
-      <li className="list-none hover:text-[#FF444A] hover:underline ">
+      <li className="list-none font-bold text-lg hover:text-[#FF444A] hover:underline ">
         <NavLink
           to="/donation"
           className={({ isActive, isPending }) =>
@@ -23,7 +23,7 @@ const Navbar = () => {
           Donation
         </NavLink>
       </li>
-      <li className="list-none hover:text-[#FF444A] hover:underline ">
+      <li className="list-none font-bold text-lg hover:text-[#FF444A] hover:underline ">
         <NavLink
           to="/statistic"
           className={({ isActive, isPending }) =>
