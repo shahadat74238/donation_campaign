@@ -13,8 +13,8 @@ const Statistics = () => {
   const totalDonation = donatedData.length;
 
   const data = [
-    { value: totalDonation, color: "#00C49F" },
-    { value: donation, color: "#FF444A" },
+    { label: 'series A', value: totalDonation, color: "#00C49F" },
+    { label: 'series A', value: donation, color: "#FF444A" },
   ];
 
   const TOTAL = data.map((item) => item.value).reduce((a, b) => a + b, 0);
@@ -24,8 +24,10 @@ const Statistics = () => {
     return `${(percent * 100).toFixed(0)}%`;
   };
 
+  
+
   return (
-    <div className="mx-10 lg:0">
+    <div className="mx-5 lg:0">
       <div className="h-screen max-w-7xl mx-aut0">
         <div className="flex flex-col justify-center items-center">
           <div>
@@ -47,7 +49,7 @@ const Statistics = () => {
               height={400}
             />
           </div>
-          <div className="flex gap-5 mt-20 items-center">
+          <div className="flex flex-col md:flex-row gap-5 mt-20 items-center">
             <h1 className="text-lg font-semibold">Your Donation</h1>
             <p className="h-2 w-20 bg-[#00C49F]"></p>
             <h1 className="text-lg font-semibold">Total Donation</h1>

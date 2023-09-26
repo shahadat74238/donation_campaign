@@ -15,9 +15,10 @@ const Banner = ({handleSearch}) => {
           </div>
           <div className="relative">
             <input
+            id="searchField"
               type="text"
               placeholder="Search here...."
-              className="input input-bordered md:w-96 pr-16"
+              className="input input-bordered md:w-96 pr-24 text-black"
             />
             <button 
             onClick={handleSearch}

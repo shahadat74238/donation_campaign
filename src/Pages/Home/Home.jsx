@@ -1,18 +1,35 @@
+import { useEffect, useState } from "react";
 import Donations from "../../Components/Donations/Donations";
 import Banner from "./Banner/Banner";
 
 const Home = () => {
+  const [categories, setCategories] = useState([]);
+  const [search, setSearch] = useState("");
 
-    const handleSearch = () => {
-        console.log('working');
-      }
+  useEffect(() => {
+    fetch("../data.json")
+      .then((res) => res.json())
+      .then((data) => {
+        if (search) {
+          const filterData = data.filter((d) => d.category === search);
+          setCategories(filterData);
+        } else {
+          setCategories(data);
+        }
+      });
+  }, [search]);
 
-    return (
-        <div>
-            <Banner handleSearch ={handleSearch}></Banner>
-            <Donations></Donations>
-        </div>
-    );
+  const handleSearch = () => {
+    const searchField = document.getElementById("searchField");
+    const searchText = searchField.value;
+    setSearch(searchText);
+  };
+  return (
+    <div>
+      <Banner handleSearch={handleSearch}></Banner>
+      <Donations categories={categories}></Donations>
+    </div>
+  );
 };
 
 export default Home;
