@@ -1,4 +1,8 @@
-const Banner = () => {
+/* eslint-disable react/prop-types */
+const Banner = ({handleSearch}) => {
+
+ 
+
   return (
     <div className="-mt-20 ">
       <div className="hero min-h-screen">
@@ -15,7 +19,9 @@ const Banner = () => {
               placeholder="Search here...."
               className="input input-bordered md:w-96 pr-16"
             />
-            <button className="btn btn-primary text-white bg-[#FF444A] hover:bg-[#f75d62] border-none absolute top-0 right-0 rounded-l-none">
+            <button 
+            onClick={handleSearch}
+            className="btn btn-primary text-white bg-[#FF444A] hover:bg-[#f75d62] border-none absolute top-0 right-0 rounded-l-none">
               Search
             </button>
           </div>

@@ -25,7 +25,7 @@ const Statistics = () => {
   };
 
   return (
-    <div className="mx-10">
+    <div className="mx-10 lg:0">
       <div className="h-screen max-w-7xl mx-aut0">
         <div className="flex flex-col justify-center items-center">
           <div>

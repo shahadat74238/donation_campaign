@@ -2,9 +2,14 @@ import Donations from "../../Components/Donations/Donations";
 import Banner from "./Banner/Banner";
 
 const Home = () => {
+
+    const handleSearch = () => {
+        console.log('working');
+      }
+
     return (
         <div>
-            <Banner></Banner>
+            <Banner handleSearch ={handleSearch}></Banner>
             <Donations></Donations>
         </div>
     );

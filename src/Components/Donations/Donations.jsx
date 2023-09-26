@@ -10,6 +10,8 @@ const Donations = () => {
       .then((data) => setCategories(data));
   }, []);
 
+  
+
   return (
     <div className="mx-10 lg:mx-0">
       <div className="grid grid-cols-1 md:grid-cols-2 lg:grid-cols-4 gap-6 max-w-7xl mx-auto my-28">
