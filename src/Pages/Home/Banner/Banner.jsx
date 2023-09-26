@@ -1,8 +1,5 @@
 /* eslint-disable react/prop-types */
-const Banner = ({handleSearch}) => {
-
- 
-
+const Banner = ({ handleSearch }) => {
   return (
     <div className="-mt-20 ">
       <div className="hero min-h-screen">
@@ -15,26 +12,27 @@ const Banner = ({handleSearch}) => {
           </div>
           <div className="relative">
             <input
-            id="searchField"
+              id="searchField"
               type="text"
               placeholder="Search here...."
               className="input input-bordered md:w-96 pr-24 text-black"
             />
-            <button 
-            onClick={handleSearch}
-            className="btn btn-primary text-white bg-[#FF444A] hover:bg-[#f75d62] border-none absolute top-0 right-0 rounded-l-none">
+            <button
+              onClick={handleSearch}
+              className="btn btn-primary text-white bg-[#FF444A] hover:bg-[#f75d62] border-none absolute top-0 right-0 rounded-l-none"
+            >
               Search
             </button>
           </div>
         </div>
       </div>
-      <div style={{
+      <div
+        style={{
           backgroundImage:
             "url(https://upicsolutions.org/wp-content/uploads/2020/10/upic-team-cta.jpg )",
         }}
-        className="h-screen bg-no-repeat bg-cover -mt-[100vh] relative -z-10 opacity-5">
-
-      </div>
+        className="h-screen bg-no-repeat bg-cover -mt-[100vh] relative -z-10 opacity-5"
+      ></div>
     </div>
   );
 };
