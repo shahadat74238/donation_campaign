@@ -11,7 +11,7 @@ const Home = () => {
       .then((res) => res.json())
       .then((data) => {
         if (search) {
-          const filterData = data.filter((d) => d.category === search);
+          const filterData = data.filter((d) => d.category.toLowerCase() === search.toLocaleLowerCase());
           setCategories(filterData);
         } else {
           setCategories(data);
