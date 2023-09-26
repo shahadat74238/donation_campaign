@@ -41,7 +41,7 @@ const Navbar = () => {
       <div className="flex flex-col md:flex-row justify-between items-center py-3 lg:max-w-7xl mx-auto">
         <div>
           <NavLink to="/">
-            <img className="h-14" src="../../../public/Logo.png" alt="" />
+            <img className="h-14" src="../Logo.png" alt="" />
           </NavLink>
         </div>
         <div>

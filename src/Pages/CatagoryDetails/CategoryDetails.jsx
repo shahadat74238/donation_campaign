@@ -62,7 +62,7 @@ const CategoryDetails = () => {
 
   return (
     <div>
-      <div>
+      <div className="mx-5 lg:0">
         <div className="max-w-7xl mx-auto mt-20 mb-28">
           <div>
             <img
