@@ -71,7 +71,7 @@ const CategoryDetails = () => {
               alt="Loading..."
             />
           </div>
-          <div className="">
+          <div className="h-28 rounded-b-lg bg-opacity-60 w-full bg-black flex items-center p-5 z-10 relative -mt-28">
             <button
               onClick={handleAddDonation}
               style={{ backgroundColor: `${category.text_button_bg}` }}

@@ -11,14 +11,14 @@ const Donations = () => {
   }, []);
 
   return (
-    <div className="mx-5 lg:mx-0">
+    <div className="mx-10 lg:mx-0">
       <div className="grid grid-cols-1 md:grid-cols-2 lg:grid-cols-4 gap-6 max-w-7xl mx-auto my-28">
         {categories.map((category) => (
           <div key={category.id}>
             <NavLink to={`/details/${category.id}`} >
               <div
                 style={{ backgroundColor: `${category.card_bg}` }}
-                className="shadow-md rounded-md cursor-pointer"
+                className="shadow-md rounded-md cursor-pointer flex flex-col"
               >
                 <div>
                   <img

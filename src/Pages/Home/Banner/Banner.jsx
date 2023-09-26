@@ -1,17 +1,11 @@
 const Banner = () => {
   return (
-    <div>
-      <div
-        className="hero min-h-screen"
-        style={{
-          backgroundImage:
-            "url(https://upicsolutions.org/wp-content/uploads/2020/10/upic-team-cta.jpg )",
-        }}
-      >
-        <div className="hero-overlay bg-opacity-90"></div>
+    <div className="-mt-20 ">
+      <div className="hero min-h-screen">
+        <div className="hero-overla"></div>
         <div className="hero-content text-center flex-col text-neutral-content">
           <div className="max-w-7xl mx-auto">
-            <h1 className="mb-5 text-5xl font-bold">
+            <h1 className="mb-5 text-5xl text-black font-bold">
               I Grow By Helping People In Need
             </h1>
           </div>
@@ -22,10 +16,17 @@ const Banner = () => {
               className="input input-bordered md:w-96 pr-16"
             />
             <button className="btn btn-primary text-white bg-[#FF444A] hover:bg-[#f75d62] border-none absolute top-0 right-0 rounded-l-none">
-            Search
+              Search
             </button>
           </div>
         </div>
+      </div>
+      <div style={{
+          backgroundImage:
+            "url(https://upicsolutions.org/wp-content/uploads/2020/10/upic-team-cta.jpg )",
+        }}
+        className="h-screen bg-no-repeat bg-cover -mt-[100vh] relative -z-10 opacity-5">
+
       </div>
     </div>
   );
